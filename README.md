@@ -1,3 +1,6 @@
+[![Secure Nginx CI/CD](https://github.com/Ram8319/GitOps-project/actions/workflows/devsecops-pipeline.yml/badge.svg)](https://github.com/Ram8319/GitOps-project/actions/workflows/devsecops-pipeline.yml)
+
+
 # 🛡️ Secure Nginx GitOps Pipeline
 
 A production-ready **DevSecOps CI/CD pipeline** designed to build, scan, and deploy a secure Nginx-based portfolio website. This project demonstrates the "Shift Left" security approach by integrating automated vulnerability scanning and linting directly into the deployment workflow.
