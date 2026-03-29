@@ -1,5 +1,5 @@
 #It is the nginx server latest image from docker 
-From nginx:latest
+From nginx:1.29.7-alpine-slim
 
 
 # This tells Docker: "Go into the 'public' folder and copy everything
