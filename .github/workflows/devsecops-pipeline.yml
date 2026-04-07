@@ -35,7 +35,7 @@ jobs:
         with:
           image-ref: 'nginx-secure:${{ github.sha }}'
           format: 'table'
-          exit-code: '0' # This tells Trivy to "Report" but not "Stop"
+          exit-code: '1' # This tells Trivy to "Report" but not "Stop"
                          # Fails the build if vulnerabilities are found 
                         
           ignore-unfixed: true
